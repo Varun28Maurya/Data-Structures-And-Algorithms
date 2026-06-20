@@ -150,10 +150,10 @@ The solution searches for the minimum possible maximum pages assigned to any stu
 ### Files
 
 | Language | File |
-|-----------|-----------|
-| Java | `Solution.java` |
-| C++ | `solution.cpp` |
-| Python | `solution.py` |
+|----------|------|
+| Java | [Solution.java](java/Solution.java) |
+| C++ | [solution.cpp](cpp/solution.cpp) |
+| Python | [solution.py](python/solution.py) |
 
 ### Complexity
 
