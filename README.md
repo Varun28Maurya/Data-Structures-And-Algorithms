@@ -1,11 +1,15 @@
-# DSA
+# Data Structures And Algorithms
 
-A structured repository for Data Structures & Algorithms practice, interview preparation, competitive programming, and problem-solving across multiple programming languages.
+A comprehensive repository dedicated to mastering Data Structures and Algorithms through structured problem-solving, interview preparation, competitive programming, and concept revision.
+
+This repository serves as a centralized knowledge base containing solutions, notes, topic-wise indexing, platform-wise tracking, and roadmap progress across multiple programming languages.
+
+---
 
 ## Repository Structure
 
 ```text
-DSA/
+Data-Structures-And-Algorithms/
 │
 ├── Problems/
 ├── Topic_Index/
@@ -15,17 +19,22 @@ DSA/
 └── README.md
 ```
 
-## Folder Purpose
+---
+
+## Directory Overview
 
 ### Problems/
 
 Contains all solved coding problems.
 
-Each problem has its own dedicated folder containing:
-- C++ solution(s)
-- Java solution(s)
-- Python solution(s)
-- Problem notes and approaches
+Each problem is maintained in its own directory and may contain:
+
+- Java implementation
+- C++ implementation
+- Python implementation
+- Problem explanation
+- Multiple approaches
+- Complexity analysis
 
 Example:
 
@@ -42,16 +51,15 @@ Problems/
 
 ### Topic_Index/
 
-Acts as a navigation system for problems based on concepts.
+Provides topic-wise navigation across solved problems.
 
-A single problem may belong to multiple topics.
+Since a problem can belong to multiple concepts, this directory acts as a reference layer for quick revision.
 
 Examples:
+
 - Two Sum → Array, Hashing
 - LRU Cache → Linked List, HashMap
 - Clone Graph → Graph, DFS, BFS
-
-This folder helps in topic-wise revision.
 
 Example:
 
@@ -59,8 +67,12 @@ Example:
 Topic_Index/
 ├── Arrays.md
 ├── Strings.md
+├── LinkedList.md
+├── Stack.md
+├── Queue.md
 ├── Trees.md
-└── Graphs.md
+├── Graphs.md
+└── DP.md
 ```
 
 ---
@@ -69,14 +81,14 @@ Topic_Index/
 
 Tracks problems according to their source platform.
 
-Examples:
+Examples include:
+
 - LeetCode
-- GeeksforGeeks
 - Codeforces
+- GeeksforGeeks
 - HackerRank
 - College Assignments
-
-Useful for revisiting platform-specific questions.
+- Contest Questions
 
 Example:
 
@@ -93,15 +105,14 @@ Platforms/
 
 ### Roadmaps/
 
-Tracks structured learning paths and interview preparation sheets.
+Tracks progress across structured learning paths and interview preparation sheets.
 
 Examples:
-- Striver A2Z Sheet
+
+- Striver A2Z DSA Sheet
 - Blind 75
 - NeetCode 150
 - Interview Preparation Lists
-
-Used to monitor progress and completion status.
 
 Example:
 
@@ -117,16 +128,18 @@ Roadmaps/
 
 ### Notes/
 
-Contains theory, concepts, patterns, and revision material.
+Contains theory notes, concepts, revision material, patterns, and observations gathered during problem-solving.
 
-Examples:
-- Array techniques
-- Graph traversals
-- Dynamic Programming patterns
-- Complexity analysis
-- Interview notes
+Topics may include:
 
-Useful for quick revision before interviews and contests.
+- Arrays
+- Linked Lists
+- Trees
+- Graphs
+- Dynamic Programming
+- Recursion
+- Complexity Analysis
+- Interview Notes
 
 Example:
 
@@ -143,41 +156,62 @@ Notes/
 
 ## Languages
 
-- Java (Primary)
+This repository contains solutions in:
+
+- Java (Primary Language)
 - C++
 - Python
 
 ---
 
-## Goals
+## Objectives
 
-- Strengthen problem-solving skills
+- Build strong problem-solving skills
+- Master Data Structures and Algorithms
 - Prepare for technical interviews
-- Master Data Structures & Algorithms
-- Build consistency through daily practice
-- Track progress across multiple platforms
-- Maintain a structured knowledge base for revision
+- Track learning progress systematically
+- Maintain a long-term revision resource
+- Practice multiple implementation approaches
+- Strengthen competitive programming fundamentals
 
 ---
 
-## Progress
+## Learning Resources
 
-Problems Solved: 0
+The repository follows structured preparation paths including:
 
-Current Focus:
-- Arrays
-- Problem Solving
-- Striver A2Z Sheet
-- Interview Preparation
+- Striver A2Z DSA Sheet
+- Blind 75
+- NeetCode 150
+- Platform-specific problem sets
+- Interview-focused question collections
 
 ---
 
 ## Repository Workflow
 
-1. Solve a problem.
-2. Add solutions in Java, C++, and/or Python.
-3. Document the approach in the problem README.
-4. Update the relevant Topic Index.
-5. Update the Platform tracker.
-6. Update the Roadmap progress.
+For every solved problem:
+
+1. Create a dedicated problem directory.
+2. Implement the solution in one or more languages.
+3. Document the approach and observations.
+4. Record the problem under relevant topics.
+5. Record the problem under its source platform.
+6. Update roadmap progress if applicable.
 7. Commit and push changes to GitHub.
+
+---
+
+## Current Focus
+
+- Data Structures Fundamentals
+- Problem Solving
+- Interview Preparation
+- Striver A2Z DSA Sheet
+- Competitive Programming Foundations
+
+---
+
+## Repository Status
+
+This repository is actively maintained and continuously updated as part of an ongoing Data Structures and Algorithms learning journey.
