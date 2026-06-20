@@ -35,7 +35,7 @@ m = 2
 ### Output
 
 ```text
-5
+6
 ```
 
 ### Explanation
@@ -46,7 +46,7 @@ One valid allocation is:
 [2, 1] | [3, 4]
 ```
 
-The maximum pages assigned to a student is `5`, which is the minimum possible value among all valid allocations.
+The maximum pages assigned to a student is `6`, which is the minimum possible value among all valid allocations.
 
 ---
 
