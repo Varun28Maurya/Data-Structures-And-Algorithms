@@ -1,0 +1,112 @@
+You are helping me maintain a professional Data Structures and Algorithms GitHub repository.
+
+Generate a complete README.md for the following problem using clean GitHub Markdown.
+
+Requirements:
+
+1. Include the exact problem title as the main heading.
+2. Include a "Problem Information" table containing:
+   - Platform
+   - Problem Number
+   - Difficulty
+   - Topics
+
+3. Include a "Problem Statement" section.
+   - Write a concise version of the problem.
+   - Do not copy copyrighted platform text verbatim.
+   - Summarize the problem in your own words.
+
+4. Include an "Examples" section.
+   - Input
+   - Output
+   - Explanation
+
+5. Include a "Constraints" section.
+
+6. Include an "Approaches" section.
+   For each approach provide:
+   - Approach Name
+   - Idea
+   - Files
+   - Time Complexity
+   - Space Complexity
+
+7. File naming convention:
+
+Java:
+- BruteForce.java
+- HashMap.java
+- SlidingWindow.java
+- BinarySearch.java
+- DFS.java
+- BFS.java
+- Recursion.java
+- Memoization.java
+- Tabulation.java
+- SpaceOptimized.java
+
+C++:
+- brute_force.cpp
+- hashmap.cpp
+- sliding_window.cpp
+- binary_search.cpp
+- dfs.cpp
+- bfs.cpp
+- recursion.cpp
+- memoization.cpp
+- tabulation.cpp
+- space_optimized.cpp
+
+Python:
+- brute_force.py
+- hashmap.py
+- sliding_window.py
+- binary_search.py
+- dfs.py
+- bfs.py
+- recursion.py
+- memoization.py
+- tabulation.py
+- space_optimized.py
+
+8. Include a "Concepts Learned" section.
+
+9. Include a "Revision Status" section:
+
+## Revision Status
+
+- [x] Solved
+- [ ] Revised Once
+- [ ] Revised Twice
+- [ ] Revised Before Interview
+
+10. Output only valid README.md content.
+
+Problem Details:
+
+Title:
+<PROBLEM_TITLE>
+
+Platform:
+<PLATFORM>
+
+Problem Number:
+<NUMBER>
+
+Difficulty:
+<DIFFICULTY>
+
+Topics:
+<TOPICS>
+
+Roadmap:
+<ROADMAP>
+
+Approaches:
+<APPROACHES>
+
+Example:
+<EXAMPLE_INPUT_OUTPUT>
+
+Constraints:
+<CONSTRAINTS>
