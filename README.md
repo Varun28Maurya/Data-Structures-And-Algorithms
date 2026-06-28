@@ -1,152 +1,271 @@
 # Data Structures And Algorithms
 
-A comprehensive repository dedicated to mastering Data Structures and Algorithms through structured problem-solving, interview preparation, competitive programming, and concept revision.
+A comprehensive repository dedicated to mastering **Data Structures and Algorithms** through structured learning, algorithm implementation, coding problem practice, interview preparation, and concept revision.
 
-This repository serves as a centralized knowledge base containing solutions, notes, topic-wise indexing, platform-wise tracking, and roadmap progress across multiple programming languages.
+This repository is organized to serve as a long-term knowledge base containing implementations, solved problems, topic-wise indexing, platform-wise tracking, learning roadmaps, and revision notes across multiple programming languages.
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 Data-Structures-And-Algorithms/
 │
+├── Algorithms/
+├── Data_Structures/
 ├── Problems/
 ├── Topic_Index/
 ├── Platforms/
 ├── Roadmaps/
 ├── Notes/
+│
 └── README.md
 ```
 
 ---
 
-## Directory Overview
+# Directory Overview
 
-### Problems/
+## Algorithms/
 
-Contains all solved coding problems.
+Contains implementations and documentation of fundamental algorithms.
 
-Each problem is maintained in its own directory and may contain:
+Examples include:
+
+- Sorting Algorithms
+- Searching Algorithms
+- Graph Algorithms
+- Greedy Algorithms
+- Dynamic Programming Algorithms
+- Backtracking Algorithms
+
+Each algorithm is stored in its own directory with:
 
 - Java implementation
 - C++ implementation
 - Python implementation
-- Problem explanation
-- Multiple approaches
-- Complexity analysis
+- README explaining:
+  - Algorithm
+  - Pseudocode
+  - Complexity
+  - Advantages
+  - Disadvantages
+  - Applications
 
-Example:
+Example
 
 ```text
-Problems/
-└── Two_Sum/
-    ├── cpp/
+Algorithms/
+└── Sorting/
+    └── Bubble_Sort/
+        ├── java/
+        ├── cpp/
+        ├── python/
+        └── README.md
+```
+
+---
+
+## Data_Structures/
+
+Contains implementations and documentation of various Data Structures.
+
+Examples include:
+
+- Arrays
+- Linked Lists
+- Stack
+- Queue
+- Heap
+- HashMap
+- Trie
+- Graph
+- Binary Search Tree
+- Segment Tree
+
+Each data structure contains:
+
+- Java implementation
+- C++ implementation
+- Python implementation
+- README explaining:
+  - Definition
+  - Operations
+  - Complexity
+  - Applications
+  - Advantages
+  - Disadvantages
+
+Example
+
+```text
+Data_Structures/
+└── Stack/
     ├── java/
+    ├── cpp/
     ├── python/
     └── README.md
 ```
 
 ---
 
-### Topic_Index/
+## Problems/
 
-Provides topic-wise navigation across solved problems.
+Contains solved coding interview and competitive programming problems.
 
-Since a problem can belong to multiple concepts, this directory acts as a reference layer for quick revision.
+Each problem is maintained in its own directory and may contain:
 
-Examples:
+- Multiple approaches
+- Java solutions
+- C++ solutions
+- Python solutions
+- Problem-specific documentation
 
-- Two Sum → Array, Hashing
-- LRU Cache → Linked List, HashMap
-- Clone Graph → Graph, DFS, BFS
-
-Example:
+Example
 
 ```text
-Topic_Index/
-├── Arrays.md
-├── Strings.md
-├── LinkedList.md
-├── Stack.md
-├── Queue.md
-├── Trees.md
-├── Graphs.md
-└── DP.md
+Problems/
+└── Two_Sum/
+    ├── java/
+    │   ├── BruteForce.java
+    │   └── HashMap.java
+    │
+    ├── cpp/
+    │   ├── brute_force.cpp
+    │   └── hashmap.cpp
+    │
+    ├── python/
+    │   ├── brute_force.py
+    │   └── hashmap.py
+    │
+    └── README.md
 ```
 
 ---
 
-### Platforms/
+## Topic_Index/
 
-Tracks problems according to their source platform.
+Provides topic-wise navigation of solved problems.
 
-Examples include:
+Since one problem may belong to multiple topics, this directory acts as a reference index instead of storing solutions.
+
+Examples:
+
+- Arrays
+- Strings
+- Hashing
+- Linked List
+- Trees
+- Graphs
+- Dynamic Programming
+- Sliding Window
+- Two Pointers
+- Binary Search
+
+Example
+
+```text
+Topic_Index/
+├── Arrays.md
+├── Hashing.md
+├── Graphs.md
+├── DP.md
+└── ...
+```
+
+Example entry inside `Arrays.md`
+
+```md
+| # | Problem |
+|---|---------|
+| 1 | [Two Sum](../Problems/Two_Sum/README.md) |
+```
+
+---
+
+## Platforms/
+
+Provides platform-wise indexing of solved problems.
+
+Supported platforms include:
 
 - LeetCode
-- Codeforces
 - GeeksforGeeks
+- Codeforces
 - HackerRank
+- Coding Ninjas
 - College Assignments
-- Contest Questions
 
-Example:
+Example
 
 ```text
 Platforms/
 ├── LeetCode.md
 ├── Codeforces.md
 ├── GeeksforGeeks.md
-├── HackerRank.md
-└── College.md
+└── ...
+```
+
+Example entry
+
+```md
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 1 | [Two Sum](../Problems/Two_Sum/README.md) | Easy |
 ```
 
 ---
 
-### Roadmaps/
+## Roadmaps/
 
-Tracks progress across structured learning paths and interview preparation sheets.
+Tracks progress across structured learning resources.
 
-Examples:
+Examples include:
 
 - Striver A2Z DSA Sheet
 - Blind 75
 - NeetCode 150
 - Interview Preparation Lists
 
-Example:
+Example
 
 ```text
 Roadmaps/
 ├── Striver_A2Z.md
 ├── Blind75.md
-├── NeetCode150.md
-└── InterviewPrep.md
+└── NeetCode150.md
+```
+
+Example entry
+
+```md
+## Arrays
+
+- [x] Two Sum
+- [ ] Best Time to Buy and Sell Stock
 ```
 
 ---
 
-### Notes/
+## Notes/
 
-Contains theory notes, concepts, revision material, patterns, and observations gathered during problem-solving.
+Contains concise revision material collected during the learning journey.
 
 Topics may include:
 
-- Arrays
-- Linked Lists
-- Trees
-- Graphs
-- Dynamic Programming
-- Recursion
+- Important Concepts
+- Patterns
+- Tricks
+- Formula Sheets
 - Complexity Analysis
 - Interview Notes
+- Revision Summaries
 
-Example:
+Example
 
 ```text
 Notes/
 ├── Arrays.md
-├── Trees.md
 ├── Graphs.md
 ├── DP.md
 └── Complexity.md
@@ -154,64 +273,44 @@ Notes/
 
 ---
 
-## Languages
+# Languages
 
-This repository contains solutions in:
+This repository contains implementations in:
 
-- Java (Primary Language)
+- Java (Primary)
 - C++
 - Python
 
 ---
 
-## Objectives
+# Repository Workflow
 
-- Build strong problem-solving skills
-- Master Data Structures and Algorithms
-- Prepare for technical interviews
-- Track learning progress systematically
-- Maintain a long-term revision resource
-- Practice multiple implementation approaches
-- Strengthen competitive programming fundamentals
+For every new problem:
 
----
-
-## Learning Resources
-
-The repository follows structured preparation paths including:
-
-- Striver A2Z DSA Sheet
-- Blind 75
-- NeetCode 150
-- Platform-specific problem sets
-- Interview-focused question collections
+1. Solve the problem.
+2. Create a dedicated problem directory inside `Problems/`.
+3. Add implementations in one or more programming languages.
+4. Create a detailed `README.md` for the problem.
+5. Update the corresponding file inside `Topic_Index/`.
+6. Update the corresponding platform file inside `Platforms/`.
+7. Update the learning roadmap if the problem belongs to one.
+8. Commit and push the changes.
 
 ---
 
-## Repository Workflow
+# Objectives
 
-For every solved problem:
-
-1. Create a dedicated problem directory.
-2. Implement the solution in one or more languages.
-3. Document the approach and observations.
-4. Record the problem under relevant topics.
-5. Record the problem under its source platform.
-6. Update roadmap progress if applicable.
-7. Commit and push changes to GitHub.
-
----
-
-## Current Focus
-
-- Data Structures Fundamentals
-- Problem Solving
-- Interview Preparation
-- Striver A2Z DSA Sheet
-- Competitive Programming Foundations
+- Master Data Structures and Algorithms.
+- Build strong problem-solving skills.
+- Prepare for coding interviews.
+- Prepare for competitive programming.
+- Maintain a structured knowledge base.
+- Track learning progress systematically.
+- Document multiple approaches for the same problem.
+- Create a long-term revision resource.
 
 ---
 
-## Repository Status
+# Repository Status
 
-This repository is actively maintained and continuously updated as part of an ongoing Data Structures and Algorithms learning journey.
+This repository is actively maintained and continuously updated throughout my Data Structures and Algorithms learning journey.
