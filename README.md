@@ -4,7 +4,7 @@ A comprehensive repository dedicated to mastering **Data Structures and Algorith
 
 This repository is organized to serve as a long-term knowledge base containing implementations, solved problems, topic-wise indexing, platform-wise tracking, learning roadmaps, and revision notes across multiple programming languages.
 
----
+
 
 # Repository Structure
 
@@ -22,7 +22,7 @@ Data-Structures-And-Algorithms/
 └── README.md
 ```
 
----
+
 
 # Directory Overview
 
@@ -64,7 +64,7 @@ Algorithms/
         └── README.md
 ```
 
----
+
 
 ## Data_Structures/
 
@@ -107,7 +107,7 @@ Data_Structures/
     └── README.md
 ```
 
----
+
 
 ## Problems/
 
@@ -141,7 +141,7 @@ Problems/
     └── README.md
 ```
 
----
+
 
 ## Topic_Index/
 
@@ -181,7 +181,7 @@ Example entry inside `Arrays.md`
 | 1 | [Two Sum](../Problems/Two_Sum/README.md) |
 ```
 
----
+
 
 ## Platforms/
 
@@ -214,7 +214,7 @@ Example entry
 | 1 | [Two Sum](../Problems/Two_Sum/README.md) | Easy |
 ```
 
----
+
 
 ## Roadmaps/
 
@@ -245,7 +245,7 @@ Example entry
 - [ ] Best Time to Buy and Sell Stock
 ```
 
----
+
 
 ## Notes/
 
@@ -271,7 +271,6 @@ Notes/
 └── Complexity.md
 ```
 
----
 
 # Languages
 
@@ -281,7 +280,6 @@ This repository contains implementations in:
 - C++
 - Python
 
----
 
 # Repository Workflow
 
@@ -296,7 +294,6 @@ For every new problem:
 7. Update the learning roadmap if the problem belongs to one.
 8. Commit and push the changes.
 
----
 
 # Objectives
 
@@ -308,8 +305,6 @@ For every new problem:
 - Track learning progress systematically.
 - Document multiple approaches for the same problem.
 - Create a long-term revision resource.
-
----
 
 # Repository Status
 
