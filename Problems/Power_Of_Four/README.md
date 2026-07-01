@@ -1,16 +1,10 @@
-# 342. Power of Four
+##Power of Four
 
 **Solved**
 
 **Difficulty:** Easy
 
-## Topics
 
-<!-- Topics -->
-
-## Companies
-
-<!-- Companies -->
 
 ## Problem Statement
 
